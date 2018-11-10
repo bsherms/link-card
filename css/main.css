@@ -11,6 +11,10 @@ body {
   background-color: #f0eee8;
 }
 
+a {
+  display: block;
+}
+
 .link-card {
   display: block;
   background-color: #dcd4cd;
@@ -22,7 +26,7 @@ body {
   background-color: #cabdb2;
 }
 
-h1 {
+.link-card h1 {
   margin: 0;
   padding: 1rem;
   font-family: "Dosis", sans-serif;
@@ -32,14 +36,23 @@ h1 {
   color: #512200;
 }
 
-p {
+.link-card div {
+  padding: 1rem 0;
+  border-top: 2px solid #9a816d;
+  border-bottom:2px solid #9a816d;
+  borde
+}
+
+.link-card p {
   margin: 0;
   padding: 0 1rem;
   font-family: Georgia, serif;
+  font-size: 1rem;
+  text-decoration: none;
   color: #512200;
 }
 
-.btn {
+.link-card .btn {
   display: inline-block;
   text-align: center;
   font-family: "Dosis", sans-serif;
@@ -49,4 +62,29 @@ p {
   background-color: #785439;
   border-radius: 8px;
   color: #fff;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
+}
+
+.link-card dl {
+  margin: 0;
+  padding: 0 1rem;
+  font-family: Georgia, serif;
+  font-size: .875rem;
+  text-decoration: none;
+  color: #512200;
+}
+
+.link-card dt {
+  display: inline-block;
+  width: 6rem;
+
+}
+
+.link-card dd {
+  display: inline-block;
+  min-width: 9em;
+  font-style: italic;
 }
