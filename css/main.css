@@ -38,3 +38,15 @@ p {
   font-family: Georgia, serif;
   color: #512200;
 }
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: .4em .75em .5em;
+  background-color: #785439;
+  border-radius: 8px;
+  color: #fff;
+}
