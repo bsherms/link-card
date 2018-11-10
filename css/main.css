@@ -7,8 +7,27 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #f0eee8;
+}
+
+.link-card {
+  display: block;
+  background-color: #dcd4cd;
+}
+
+.link-card:hover {
+  background-color:
+}
+
 h1 {
   font-family: "Dosis", sans-serif;
   font-size: 1.5rem;
   text-decoration: none;
+  color: #512200;
+}
+
+p {
+font-family: Georgia, serif;
+color: #512200;
 }
