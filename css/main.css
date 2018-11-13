@@ -12,16 +12,17 @@ body {
 }
 
 a {
-  display: block;
   text-decoration: none;
 }
 
 .link-card {
   display: block;
   background-color: #dcd4cd;
-  border: 3px solid #785439;
+  border: 3px solid #9a816d;
   border-radius: 3px;
   margin: 0;
+  text-decoration: none;
+  padding: 1rem;
 }
 
 .link-card:hover {
@@ -30,28 +31,24 @@ a {
 
 .link-card h2 {
   margin: 0;
-  padding: 1rem;
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   color: #512200;
 }
 
-.link-card div {
-  padding: 1rem 0;
+.border {
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
 }
 
 .link-card p {
-  margin: 0 1rem 1rem;
-  padding: 0;
   font-family: Georgia, serif;
   font-size: 1rem;
   color: #512200;
 }
 
-.link-card .btn {
+.btn {
   display: inline-block;
   text-align: center;
   font-family: Dosis, sans-serif;
@@ -61,7 +58,12 @@ a {
   background-color: #785439;
   border-radius: 8px;
   color: #fff;
-  margin: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .link-card:hover .btn {
@@ -70,7 +72,7 @@ a {
 
 .link-card dl {
   margin: 0;
-  padding: 0 1rem;
+  padding: 1rem 0;
   font-family: Georgia, serif;
   font-size: .875rem;
   text-decoration: none;
