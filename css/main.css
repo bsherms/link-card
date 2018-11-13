@@ -13,6 +13,7 @@ body {
 
 a {
   display: block;
+  text-decoration: none;
 }
 
 .link-card {
@@ -32,7 +33,6 @@ a {
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
-  text-decoration: none;
   color: #512200;
 }
 
@@ -47,7 +47,6 @@ a {
   padding: 0 1rem;
   font-family: Georgia, serif;
   font-size: 1rem;
-  text-decoration: none;
   color: #512200;
 }
 
